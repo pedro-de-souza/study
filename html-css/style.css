@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(197, 59, 59);
+    margin: 50px;
+}
+h1{
+    color: rgb(78, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h2{
+    font-size: 55PX;
+}
+.mais_servicos{
+    color: blue;
+}
+/* Isso é o básico de acordo com o DigitalInnovation */
