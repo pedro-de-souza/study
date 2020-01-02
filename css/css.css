@@ -1,0 +1,192 @@
+p{
+    color:black;
+    background-color:gray;
+    font-size:130%;
+    text-align: center;
+}
+.p{
+    color:rgb(151, 45, 45);
+    font-variant: small-caps;
+    text-align: left;
+
+}
+#p{
+    text-align: right;
+    color:rgb(36, 36, 138);
+    font-weight: bold;
+}
+
+div #p em {
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    background-color:black;
+    font-size: x-large;
+}
+
+/* Isso é um comentário */
+td.top {
+    vertical-align: top;
+ }
+ td.middle {
+    vertical-align: middle;
+ }
+ td.bottom {
+    vertical-align: bottom;
+ }
+
+ span.pixel {
+    vertical-align: -10px;
+    text-decoration: line-through;
+}
+.main {
+    height: 150px; width: 400px;
+    background-color: LightSkyBlue;
+    display: inline-table;
+}
+.paragraph {
+    display: table-cell;
+    vertical-align: middle;
+}
+.paragraph p{
+    color:white;
+    background-color: transparent;
+    font-size:130%;
+    text-align: center;
+    text-decoration: underline;
+    text-indent: 60px;
+    text-shadow: 5px 2px 4px grey;
+}
+.paragrafo{
+    text-transform: capitalize;
+    /* text-transform: uppercase; Maiuscula
+    text-transform: lowercase; Minusculas*/
+    letter-spacing: 4px; 
+    word-spacing: 30px;
+    /* white-space: nowrap; */
+    white-space: pre-wrap;
+    margin: 3% ;
+    padding: 10px;    
+    border: 5px solid rgb(6, 77, 6);
+    border-style: double;
+    background-image: url("https://observatoriodeseries.bol.uol.com.br/wp-content/uploads/2020/01/Baby-Yoda.jpeg");
+    /* background-repeat: repeat-x;   */
+    background-size: 100% 200%;
+    background-clip: content-box;
+    background-attachment: scroll;
+    transition: width 3s;
+}
+
+/* div { Duas Imagens
+  width: 400px;
+  height: 300px;
+  background-image: url(csslogo.png), url(csscode.jpg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+
+  background:radial-gradient
+(50px 50px, red 15px, blue 25px);
+  
+}  */
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+ }
+ ul.circle {
+    list-style-image: url("logo.jpg");
+    list-style-position: inside;
+ }
+ ul.square {
+    list-style-type: square;
+ }
+
+ .table {
+    border-collapse: separate;
+    empty-cells: hide;
+    table-layout: auto;
+    font-size: 50px;
+ }
+ .table:hover{
+    color: red;
+    animation-name: colorchange;
+    animation-duration: 1s;
+ }
+ span{
+     cursor: crosshair;
+ }
+
+ .div {
+    width: 250px;
+    height: 150px;
+    margin: 50px;
+    background-color: LightBlue;
+    float: left;
+    overflow: scroll;
+ }
+.paragrafo{
+    -o-border-radius:10px;
+    -webkit-border-radius: 24px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 10px 10px #888888;
+    /* superior esquerda , superior direita , inferior direita , inferior esquerda . */
+}
+/* p::first-line {
+    color: #589432;
+ } */
+.div::-moz-selection {
+    background: #8bc34a;
+    color: #fff;
+    word-wrap: normal;
+    word-wrap:break-word;
+ }
+ p ::before { 
+    content: url ("logo.jpg"); 
+ }
+ p ::first-line { 
+    color: yellow;
+ }
+ @font-face { 
+    font-family: Delicious; 
+    font-weight: bold; 
+    src: url('Delicious-Bold.otf'); 
+  }
+
+.linear{
+    float: left;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    color: #FFF;  
+    background: linear-gradient(70deg, black, rgb(7, 17, 151));
+    transform: rotate(10deg);
+}
+
+@keyframes colorchange {
+    0% {color: red;}
+    50% {color: green;}
+    100% {color: blue;}
+ } 
+
+ /* animation-name: colorchange;
+   animation-duration: 3s;
+   animation-timing-function: ease-in;
+   animation-delay: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: reverse;
+
+   #avatar.deactivated {
+filter: saturate (30%)
+drop-shadow (5px 9px 2px gray)
+blur (1px);
+border-radius: 50%;
+}
+
+.filtered {
+  filter:  hue-rotate (80deg );
+}
+
+.modified {
+filter: saturate (55%) invert (70%);
+}
+  
+ */
