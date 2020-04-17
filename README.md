@@ -3,6 +3,7 @@
 
 > Each branch corresponds to an online course.
 
-## Branches: 
-1. [Digital Innovation One](https://github.com/pedrosouzabandtec/study/tree/DigitalInnovationOne)
-2. [Solo Learn](https://github.com/pedrosouzabandtec/study/tree/SoloLearn)
+## Study platform: 
+1. [Digital Innovation One](https://digitalinnovation.one/)
+2. [Solo Learn](https://www.sololearn.com/)
+3. ...
